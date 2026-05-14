@@ -1,0 +1,25 @@
+name: clinical-genomics-portfolio
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.11
+  - jupyter
+  - notebook
+  - ipykernel
+  - pandas
+  - numpy
+  - matplotlib
+  - scikit-learn
+  - openpyxl
+  - biopython
+  - pysam
+  - cyvcf2
+  - samtools
+  - bcftools
+  - bedtools
+  - pip
+  - pip:
+      - streamlit
+      - plotly
