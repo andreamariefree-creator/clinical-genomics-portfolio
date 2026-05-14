@@ -216,3 +216,46 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Environments
+.env
+.venv/
+venv/
+clinical-genomics-portfolio/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Large genomics files
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.bam
+*.bai
+*.sam
+*.cram
+*.crai
+*.vcf.gz
+*.tbi
+*.maf.gz
+
+# Large data folders
+raw_data/
+external_data/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Sensitive/private files
+*.key
+*.pem
+credentials*
+secrets*
+private*
