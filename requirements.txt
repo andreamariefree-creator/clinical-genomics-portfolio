@@ -1,0 +1,13 @@
+pandas
+numpy
+matplotlib
+jupyter
+notebook
+scikit-learn
+openpyxl
+plotly
+streamlit
+seaborn
+biopython
+pysam
+cyvcf2
