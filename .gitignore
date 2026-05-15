@@ -260,3 +260,5 @@ credentials*
 secrets*
 private*
 anaconda_projects/
+projects/01_somatic_maf_analysis/data/gdc_manifest_skcm_maf.txt.txt/*.maf.gz
+projects/01_somatic_maf_analysis/data/gdc_manifest_skcm_maf.txt.txt/
