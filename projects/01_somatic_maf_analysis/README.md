@@ -65,6 +65,20 @@ The workflow includes:
 9. Summarizing variants in selected genes of interest
 10. Exporting summary tables and figures
 
+## Data Policy
+Downloaded MAF files are not stored in this GitHub repository. They are kept locally and ignored using .gitignore.
+
+The repository includes documentation, manifests, notebooks, summary tables, and figures, but not large downloaded mutation data files.
+
+No private, employer-owned, protected health information, or patient-identifiable data are included in this repository.
+
+##Limitations
+Mutation counts per sample are used as simplified exploratory tumor mutational burden-style proxies. They are not clinically validated TMB values.
+
+Clinically reportable TMB would require normalization to a validated assay footprint or callable genomic territory, quality-control thresholds, and laboratory-specific validation.
+
+High-mutation outliers are exploratory and are not classified as MSI-high, mismatch repair-deficient, or polymerase proofreading-deficient based on these notebooks alone. Confirming those categories would require additional molecular, clinical, or orthogonal annotation data.
+
 ## Repository Structure
 
 ```text
@@ -81,16 +95,3 @@ projects/01_somatic_maf_analysis/
 │   └── coad/
 └── README.md
 
-## Data Policy
-Downloaded MAF files are not stored in this GitHub repository. They are kept locally and ignored using .gitignore.
-
-The repository includes documentation, manifests, notebooks, summary tables, and figures, but not large downloaded mutation data files.
-
-No private, employer-owned, protected health information, or patient-identifiable data are included in this repository.
-
-##Limitations
-Mutation counts per sample are used as simplified exploratory tumor mutational burden-style proxies. They are not clinically validated TMB values.
-
-Clinically reportable TMB would require normalization to a validated assay footprint or callable genomic territory, quality-control thresholds, and laboratory-specific validation.
-
-High-mutation outliers are exploratory and are not classified as MSI-high, mismatch repair-deficient, or polymerase proofreading-deficient based on these notebooks alone. Confirming those categories would require additional molecular, clinical, or orthogonal annotation data.

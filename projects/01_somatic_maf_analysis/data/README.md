@@ -17,6 +17,10 @@ This project uses open-access somatic mutation data from the National Cancer Ins
 - Access Level: Open access
 - Workflow Type: Aliquot Ensemble Somatic Variant Merging and Masking
 
+## Download Instructions
+
+Use the GDC Data Transfer Tool from the repository root to download MAF files.
+
 ## Included Manifest Files
 
 This repository includes GDC manifest files documenting the downloaded data:
@@ -25,6 +29,3 @@ This repository includes GDC manifest files documenting the downloaded data:
 gdc_manifest_skcm_maf.txt
 gdc_manifest_coad_maf.txt
 
-## Download Instructions
-
-Use the GDC Data Transfer Tool from the repository root to download MAF files.
