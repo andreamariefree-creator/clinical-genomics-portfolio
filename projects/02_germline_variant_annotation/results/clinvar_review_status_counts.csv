@@ -1,0 +1,11 @@
+ReviewStatus,Record_Count
+"criteria provided, single submitter",51468
+"criteria provided, multiple submitters, no conflicts",36144
+"criteria provided, conflicting classifications",16675
+reviewed by expert panel,10411
+no assertion criteria provided,2900
+-,2215
+no classification provided,199
+practice guideline,23
+no classification for the single variant,16
+no classifications from unflagged records,4

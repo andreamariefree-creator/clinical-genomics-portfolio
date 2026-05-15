@@ -1,0 +1,70 @@
+GeneSymbol,ReviewStatus,Record_Count
+APC,"criteria provided, single submitter",1433
+APC,"criteria provided, multiple submitters, no conflicts",1039
+APC,no assertion criteria provided,78
+APC,reviewed by expert panel,52
+APOB,"criteria provided, single submitter",183
+APOB,"criteria provided, multiple submitters, no conflicts",47
+APOB,no assertion criteria provided,20
+BRCA1,reviewed by expert panel,2271
+BRCA1,"criteria provided, single submitter",1218
+BRCA1,"criteria provided, multiple submitters, no conflicts",591
+BRCA1,no assertion criteria provided,176
+BRCA2,reviewed by expert panel,2703
+BRCA2,"criteria provided, single submitter",1832
+BRCA2,"criteria provided, multiple submitters, no conflicts",976
+BRCA2,no assertion criteria provided,150
+CFTR,"criteria provided, single submitter",612
+CFTR,"criteria provided, multiple submitters, no conflicts",436
+CFTR,reviewed by expert panel,330
+CFTR,no assertion criteria provided,64
+CFTR,practice guideline,23
+EPCAM,"criteria provided, single submitter",55
+EPCAM,no assertion criteria provided,17
+EPCAM,"criteria provided, multiple submitters, no conflicts",9
+GJB2,"criteria provided, multiple submitters, no conflicts",110
+GJB2,"criteria provided, single submitter",108
+GJB2,reviewed by expert panel,20
+GJB2,no assertion criteria provided,15
+LDLR,"criteria provided, multiple submitters, no conflicts",879
+LDLR,"criteria provided, single submitter",837
+LDLR,reviewed by expert panel,199
+LDLR,no assertion criteria provided,96
+MLH1,"criteria provided, single submitter",815
+MLH1,reviewed by expert panel,565
+MLH1,"criteria provided, multiple submitters, no conflicts",508
+MLH1,no assertion criteria provided,50
+MSH2,"criteria provided, single submitter",996
+MSH2,"criteria provided, multiple submitters, no conflicts",624
+MSH2,reviewed by expert panel,493
+MSH2,no assertion criteria provided,63
+MSH6,"criteria provided, single submitter",1106
+MSH6,"criteria provided, multiple submitters, no conflicts",928
+MSH6,reviewed by expert panel,182
+MSH6,no assertion criteria provided,44
+MUTYH,"criteria provided, single submitter",213
+MUTYH,"criteria provided, multiple submitters, no conflicts",187
+MUTYH,no assertion criteria provided,19
+MYBPC3,"criteria provided, single submitter",548
+MYBPC3,"criteria provided, multiple submitters, no conflicts",481
+MYBPC3,no assertion criteria provided,27
+MYBPC3,reviewed by expert panel,4
+MYH7,"criteria provided, single submitter",205
+MYH7,"criteria provided, multiple submitters, no conflicts",142
+MYH7,reviewed by expert panel,52
+MYH7,no assertion criteria provided,32
+PCSK9,no assertion criteria provided,7
+PCSK9,"criteria provided, single submitter",6
+PCSK9,"criteria provided, multiple submitters, no conflicts",5
+PMS2,"criteria provided, single submitter",488
+PMS2,"criteria provided, multiple submitters, no conflicts",418
+PMS2,reviewed by expert panel,58
+PMS2,no assertion criteria provided,27
+TNNI3,"criteria provided, single submitter",47
+TNNI3,"criteria provided, multiple submitters, no conflicts",18
+TNNI3,no assertion criteria provided,12
+TNNI3,reviewed by expert panel,3
+TNNT2,"criteria provided, single submitter",31
+TNNT2,"criteria provided, multiple submitters, no conflicts",25
+TNNT2,no assertion criteria provided,7
+TNNT2,reviewed by expert panel,3
