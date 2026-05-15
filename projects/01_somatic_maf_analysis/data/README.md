@@ -1,4 +1,30 @@
 # Data
-Raw or large data files are not stored in this repository.
-This project will use open-access public cancer mutation data in Mutation Annotation Format (MAF). Data source links and download instructions will be documented here.
-No private, employer-owned, protected health information, or patient-identifiable data are included in this repository.
+
+Raw or large downloaded data files are not stored in this repository.
+
+This project uses open-access somatic mutation data from the National Cancer Institute Genomic Data Commons (GDC). Analyses currently include:
+
+- TCGA-SKCM: skin cutaneous melanoma
+- TCGA-COAD: colon adenocarcinoma
+
+## Data Source
+
+- Source: NCI Genomic Data Commons (GDC)
+- Data Category: Simple Nucleotide Variation
+- Data Type: Masked Somatic Mutation
+- Experimental Strategy: WXS
+- File Format: MAF / TSV
+- Access Level: Open access
+- Workflow Type: Aliquot Ensemble Somatic Variant Merging and Masking
+
+## Included Manifest Files
+
+This repository includes GDC manifest files documenting the downloaded data:
+
+```text
+gdc_manifest_skcm_maf.txt
+gdc_manifest_coad_maf.txt
+
+## Download Instructions
+
+Use the GDC Data Transfer Tool from the repository root to download MAF files.
