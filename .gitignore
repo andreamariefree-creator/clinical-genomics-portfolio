@@ -263,4 +263,7 @@ anaconda_projects/
 # Downloaded GDC MAF data files
 projects/01_somatic_maf_analysis/data/skcm_maf/
 *.maf.gz
+projects/01_somatic_maf_analysis/data/coad_maf/
+*.maf.gz
+
 
