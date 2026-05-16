@@ -267,4 +267,6 @@ projects/01_somatic_maf_analysis/data/coad_maf/
 *.maf.gz
 # Downloaded ClinVar data
 projects/02_germline_variant_annotation/data/clinvar/
+# Downloaded Project 03 QC example data
+projects/03_ngs_qc_dashboard/data/fastqc_examples/
 
