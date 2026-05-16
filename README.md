@@ -63,9 +63,34 @@ This project is intended to show how public cancer genomics data can be transfor
 
 [View Project 01](projects/01_somatic_maf_analysis/)
 
-### 02. Germline Variant Annotation
+### Project 02: Germline Variant Annotation Using ClinVar
 
-Educational workflow for parsing and annotating VCF-style variant data using public resources such as ClinVar-style clinical significance fields, population frequency, variant consequence, and candidate variant prioritization.
+This project analyzes public NCBI ClinVar variant summary data to demonstrate a reproducible germline variant annotation workflow.
+
+The project focuses on a selected clinical gene panel representing hereditary breast and ovarian cancer, Lynch syndrome and colorectal cancer predisposition, familial hypercholesterolemia, cardiomyopathy, cystic fibrosis, and hereditary hearing loss.
+
+The analysis workflow includes:
+
+- loading the public ClinVar `variant_summary.txt.gz` dataset
+- filtering records to GRCh38
+- filtering to a selected germline clinical gene panel
+- summarizing ClinVar records by gene
+- summarizing clinical significance labels
+- identifying pathogenic and likely pathogenic records
+- summarizing ClinVar review status
+- creating an educational ClinVar-based prioritization score
+- generating record-level and unique variant-level prioritization tables
+- exporting reproducible summary outputs
+
+#### Clinical Genomics Relevance
+
+This project demonstrates how public clinical genomics annotations can be organized into an interpretable workflow for germline variant review.
+
+The workflow emphasizes the difference between gene-level relevance and variant-level interpretation. Clinically important genes can contain pathogenic, likely pathogenic, uncertain, conflicting, benign, and likely benign records, which reinforces the need for structured variant-level review.
+
+The educational prioritization table is not a clinical classification. It is intended to demonstrate how ClinVar annotations, review status, and gene context can be used to organize public variant records for exploratory analysis.
+
+[View Project 02](projects/02_germline_variant_annotation/)
 
 ### 03. NGS QC Dashboard
 
@@ -87,22 +112,37 @@ SQLite-based system for storing, querying, and filtering variant annotation data
 - NGS QC metrics
 - Reproducible analysis documentation
 - Clinical genomics workflow design
+- ClinVar variant summary analysis
+- Germline variant annotation
+- Clinical significance label summarization
+- Review status and evidence-confidence assessment
+- Educational variant prioritization
+- Record-level versus unique variant-level data handling
 
 ## Disclaimer
 
 These projects are for educational and portfolio purposes only. They are not intended for clinical diagnosis, treatment decisions, or patient reporting.
 
-## Repository Structure for Project 01
+## Repository Structure for Projects 1 and 2
 
 ```text
 clinical-genomics-portfolio/
 ├── docs/
 ├── projects/
-│   └── 01_somatic_maf_analysis/
-│       ├── data/
-│       ├── notebooks/
-│       ├── results/
-│       └── README.md
+│   ├── 01_somatic_maf_analysis/
+│   │   ├── data/
+│   │   ├── notebooks/
+│   │   ├── results/
+│   │   ├── src/
+│   │   └── README.md
+│   ├── 02_germline_variant_annotation/
+│   │   ├── data/
+│   │   ├── notebooks/
+│   │   ├── results/
+│   │   ├── src/
+│   │   └── README.md
+│   ├── 03_ngs_qc_dashboard/
+│   └── 04_variant_sql_database/
 ├── resources/
 ├── README.md
 ├── requirements.txt
