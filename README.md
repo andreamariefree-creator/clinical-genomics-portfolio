@@ -12,8 +12,6 @@ I am a molecular biology technician and computational biologist with experience 
 
 Analysis of open-access cancer mutation data using Mutation Annotation Format files. This project focuses on mutation burden, recurrently altered genes, variant classes, and oncology-relevant variant prioritization.
 
-# Clinical Genomics Portfolio
-
 ## Overview
 
 This portfolio documents projects in clinical genomics, cancer genomics, molecular diagnostics, and computational biology. The goal is to demonstrate practical skills in public biomedical data analysis, reproducible coding workflows, clinical genomics interpretation, and biologically grounded data storytelling.
@@ -32,9 +30,7 @@ The projects are designed to reflect a transition from molecular biology laborat
 - Exploratory clinical genomics interpretation
 - Data visualization and summary table generation
 
-## Featured Project
-
-### Project 01: Somatic MAF Analysis
+### MAF Analysis
 
 This project analyzes open-access somatic mutation data from The Cancer Genome Atlas (TCGA) using Mutation Annotation Format (MAF) files downloaded from the National Cancer Institute Genomic Data Commons (GDC).
 
@@ -92,11 +88,11 @@ The educational prioritization table is not a clinical classification. It is int
 
 [View Project 02](projects/02_germline_variant_annotation/)
 
-### 03. NGS QC Dashboard
+### 03. NGS QC Dashboard (In Development)
 
 Prototype sequencing quality-control dashboard for evaluating sample and run-level metrics relevant to targeted sequencing workflows.
 
-### 04. Variant SQL Database
+### 04. Variant SQL Database (In Development)
 
 SQLite-based system for storing, querying, and filtering variant annotation data in a reproducible format.
 
