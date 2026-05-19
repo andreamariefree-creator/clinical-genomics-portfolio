@@ -1,0 +1,4 @@
+sample_id,n_fastq_files,total_estimated_sequences,mean_gc_percent,mean_duplicate_percent,mean_fastqc_fail_percent,mean_sequence_length
+TESTX,4,100000,42.0,0.1479999999999961,18.181818181818183,101.0
+TESTY,4,100000,43.0,0.19899999999999446,18.181818181818183,101.0
+TESTZ,4,100000,43.0,0.14000000000000057,18.181818181818183,101.0

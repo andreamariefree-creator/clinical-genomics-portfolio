@@ -88,9 +88,29 @@ The educational prioritization table is not a clinical classification. It is int
 
 [View Project 02](projects/02_germline_variant_annotation/)
 
-### 03. NGS QC Dashboard (In Development)
+---
 
-Prototype sequencing quality-control dashboard for evaluating sample and run-level metrics relevant to targeted sequencing workflows.
+### Project 03: NGS QC Dashboard
+
+This project demonstrates a reproducible next-generation sequencing quality-control workflow using public paired-end FASTQ test data, FastQC, MultiQC, and Python-based dashboard reporting.
+
+The analysis workflow includes:
+
+- running FastQC on public FASTQ test files
+- aggregating FastQC outputs with MultiQC
+- parsing MultiQC summary tables in Python
+- cleaning FASTQ-level QC metrics
+- summarizing QC metrics by biological sample
+- visualizing read counts, GC content, duplication rate, and sequence-level metrics
+- exporting reproducible summary tables and figures
+
+#### Clinical Genomics Relevance
+
+NGS quality control is a core part of clinical and research sequencing workflows. This project demonstrates how command-line QC tools and Python-based reporting can be combined to create interpretable sample-level summaries.
+
+The first notebook uses a uniform public test dataset, so the emphasis is on reproducible workflow construction rather than identifying major sample-specific failures.
+
+[View Project 03](projects/03_ngs_qc_dashboard/)
 
 ### 04. Variant SQL Database (In Development)
 
@@ -114,12 +134,16 @@ SQLite-based system for storing, querying, and filtering variant annotation data
 - Review status and evidence-confidence assessment
 - Educational variant prioritization
 - Record-level versus unique variant-level data handling
+- FastQC and MultiQC workflow execution
+- NGS QC metric parsing
+- FASTQ-level quality-control summarization
+- Sample-level QC dashboard reporting
 
 ## Disclaimer
 
 These projects are for educational and portfolio purposes only. They are not intended for clinical diagnosis, treatment decisions, or patient reporting.
 
-## Repository Structure for Projects 1 and 2
+## Repository Structure for Projects 1, 2, and 3
 
 ```text
 clinical-genomics-portfolio/
@@ -138,6 +162,11 @@ clinical-genomics-portfolio/
 │   │   ├── src/
 │   │   └── README.md
 │   ├── 03_ngs_qc_dashboard/
+│   │   ├── data/
+│   │   ├── notebooks/
+│   │   ├── results/
+│   │   ├── src/
+│   │   └── README.md
 │   └── 04_variant_sql_database/
 ├── resources/
 ├── README.md

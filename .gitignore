@@ -268,5 +268,17 @@ projects/01_somatic_maf_analysis/data/coad_maf/
 # Downloaded ClinVar data
 projects/02_germline_variant_annotation/data/clinvar/
 # Downloaded Project 03 QC example data
-projects/03_ngs_qc_dashboard/data/fastqc_examples/
+# Downloaded Project 03 NGS QC example data
+projects/03_ngs_qc_dashboard/data/fastq/
+projects/03_ngs_qc_dashboard/data/testdata-master/
+projects/03_ngs_qc_dashboard/data/hartwig_testdata.zip
+
+# Project 03 raw/intermediate QC tool outputs
+projects/03_ngs_qc_dashboard/results/fastqc/
+projects/03_ngs_qc_dashboard/results/multiqc/
+
+# Generated Project 03 mixed-quality FASTQ data for future extension
+projects/03_ngs_qc_dashboard/data/mixed_quality_fastq/
+projects/03_ngs_qc_dashboard/results/fastqc_mixed_quality/
+projects/03_ngs_qc_dashboard/results/multiqc_mixed_quality/
 
